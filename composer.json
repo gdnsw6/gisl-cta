@@ -1,0 +1,53 @@
+{
+  "name": "gisl/advanced-call-to-action-banner",
+  "description": "A versatile and customizable call-to-action banner plugin for Shopware, designed to enhance customer engagement and drive conversions.",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "shopware/core": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "GISL\\AdvancedCallToActionBanner\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GISL\\AdvancedCallToActionBanner\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "GISL\\AdvancedCallToActionBanner\\GISLAdvancedCallToActionBanner",
+    "label": {
+      "en-GB": "Advanced Call-to-Action Banner",
+      "de-DE": "Erweiterter Call-to-Action-Banner"
+    },
+    "description": {
+      "en-GB": "This plugin enables merchants to create and display customizable call-to-action banners, encouraging customers to take specific actions like product inquiries, promotions, or newsletter signups.",
+      "de-DE": "Mit diesem Plugin können Händler anpassbare Call-to-Action-Banner erstellen und anzeigen, um Kunden zu bestimmten Aktionen wie Produktanfragen, Werbeaktionen oder Newsletter-Anmeldungen zu ermutigen."
+    },
+    "manufacturerLink": {
+      "de-DE": "https://www.goldeninfosystems.com/",
+      "en-GB": "https://www.goldeninfosystems.com/"
+    },
+    "supportLink": {
+      "de-DE": "https://www.goldeninfosystems.com/support",
+      "en-GB": "https://www.goldeninfosystems.com/support"
+    },
+    "plugin-icon": "src/Resources/config/plugin.png",
+    "copyright": "(c) Golden Info Systems",
+    "categories": [
+      "frontend",
+      "marketing",
+      "ui-enhancements"
+    ],
+    "keywords": [
+      "call-to-action",
+      "banner",
+      "shopware",
+      "plugin",
+      "marketing"
+    ]
+  }
+}

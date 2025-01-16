@@ -1,0 +1,17 @@
+{% set columns = 3 %}
+{% set id = element.id %}
+
+{% set element = block.slots.getSlot('one') %}
+<div class="mb-5 mb-lg-0 col-md-6 col-lg-4" data-cms-element-id="{{ id }}">
+    {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+</div>
+
+{% set element = block.slots.getSlot('two') %}
+<div class="mb-5 mb-lg-0 col-md-6 col-lg-4" data-cms-element-id="{{ id }}">
+    {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+</div>
+
+{% set element = block.slots.getSlot('three') %}
+<div class="col-lg-4" data-cms-element-id="{{ id }}">
+    {% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+</div>
