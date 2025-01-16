@@ -10,7 +10,7 @@
     "extra": {
         "shopware-plugin-class": "GISL\\GISLCTABanner\\GISLCTABanner",
         "label": {
-            "de-DE": "GISL Advance CTA Banner",
+            "de-DE": "GISL Advance CTA-banner",
             "en-GB": "GISL Advance CTA Banner"
         }
     },
