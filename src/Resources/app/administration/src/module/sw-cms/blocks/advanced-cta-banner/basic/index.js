@@ -4,7 +4,8 @@ import "./preview";
 Shopware.Service("cmsService").registerCmsBlock({
   name: "advanced-cta-banner-basic",
   label: "sw-cms.blocks.general.ctaBannerbasic.label",
-  category: "advanced-cta-banner",
+  // category: "advanced-cta-banner",
+  category: "text",
   component: "sw-cms-block-advanced-cta-banner-basic",
   previewComponent: "sw-cms-preview-advanced-cta-banner-basic",
   defaultConfig: {
