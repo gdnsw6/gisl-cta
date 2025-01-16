@@ -16,3 +16,4 @@ import enGB from "./module/sw-cms/snippet/en-GB.json";
 
 Shopware.Locale.extend("de-DE", deDE);
 Shopware.Locale.extend("de-DE", enGB);
+
