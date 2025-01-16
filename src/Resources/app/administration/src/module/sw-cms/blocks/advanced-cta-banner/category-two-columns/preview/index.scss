@@ -1,0 +1,29 @@
+.sw-cms-preview-advanced-cta-banner.two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+
+  .sw-cms-el-preview-advanced-cta-banner{
+    padding: 5px;
+
+    .container{
+      .container-content{
+        h3{
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+
+        button{
+          background: orange;
+          margin: 5px auto;
+          padding: 2px 5px;
+          color: white;
+          border-radius: 3px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
