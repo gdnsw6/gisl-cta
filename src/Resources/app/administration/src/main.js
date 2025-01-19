@@ -1,3 +1,5 @@
+import "./module/sw-cms/blocks/sw-cms-cta-side-bar"
+
 import "./module/sw-cms/blocks/advanced-cta-banner/basic";
 import "./module/sw-cms/blocks/advanced-cta-banner/video";
 // import "./module/sw-cms/blocks/advanced-cta-banner/category-three-columns";
