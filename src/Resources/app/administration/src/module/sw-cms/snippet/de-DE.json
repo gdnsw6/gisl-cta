@@ -1,6 +1,9 @@
 {
   "apps.sw-cms.detail.label.blockCategory.advanced-cta-banner": "Erweitertes Call-to-Action-Banner",
   "sw-cms": {
+    "category":{
+      "title":"Geavanceerde CTA-banner"
+    },
     "blocks": {
       "general": {
         "ctaBannerbasic": {
